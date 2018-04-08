@@ -42,3 +42,7 @@ def print_info():
 def print_info_alter(uname_alter):
 	u_name_alter = uname_alter
 	return render_template('print.html', u__name = u_name_alter)
+
+if __name__ == __main__:
+	app.run(debug = True,  port = 5000)
+
